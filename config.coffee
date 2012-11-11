@@ -8,7 +8,7 @@ exports.config =
   files: 
     
     javascripts: 
-      defaultExtension: 'js',
+      defaultExtension: 'coffee',
       joinTo: 
         'javascripts/app.js': /^app/
         'javascripts/vendor.js': /^vendor/
@@ -24,7 +24,7 @@ exports.config =
           ]
 
     stylesheets:
-      defaultExtension: 'css'
+      defaultExtension: 'styl'
       joinTo: 'stylesheets/app.css'
       order:
         before: ['vendor/styles/bootstrap.css']
